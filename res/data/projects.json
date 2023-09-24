@@ -1,0 +1,748 @@
+{
+    "skills": [
+        {
+            "language": "python",
+            "progress": 65,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Python3 est un langage simplifié notamment utilisé pour le traitement de données. [Bon niveau, POO]",
+            "overTitle": "Python3"
+        },
+        {
+            "language": "html-css",
+            "progress": 60,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "HTML5 et CSS3 permettent de mettre en page une page web moderne. [Bon niveau]",
+            "overTitle": "HTML5/CSS3"
+        },
+        {
+            "language": "java",
+            "progress": 45,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Java est un langage de la technologie embarquée. [Bases, POO]",
+            "overTitle": "Java"
+        },
+        {
+            "language": "js",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Javascript permet de gérer les interactions dans les pages web modernes. [Bases, aucun framework]",
+            "overTitle": "Javascript"
+        },
+        {
+            "language": "sql",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "SQL permet d'effectuer des requêtes à une base de données. [Bases]",
+            "overTitle": "SQL"
+        },
+        {
+            "language": "cs",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "C# est utile pour la mise en place d'interfaces hommes-machines. [Bases, POO]",
+            "overTitle": "C#"
+        },
+        {
+            "language": "bash",
+            "progress": 40,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Bash permet d'effectuer des manipulations consoles sur Linux. [Bases]",
+            "overTitle": "Bash"
+        },
+        {
+            "language": "godot",
+            "progress": 40,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "GDScript est le langage du moteur de jeux vidéos Godot Engine. [Bases]",
+            "overTitle": "GDScript"
+        },
+        {
+            "language": "cpp",
+            "progress": 20,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "C++ est un langage plutôt bas niveau utilisé pour la programmation d'applications. [Bases]",
+            "overTitle": "C++"
+        },
+        {
+            "language": "markdown",
+            "progress": 20,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Markdown permet la mise en page de documents simples. [Bases]",
+            "overTitle": "Markdown"
+        }
+    ],
+    "softwares": [
+        {
+            "software": "vscode",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "VS Code est un éditeur de code extensible multiplateforme fortement répandu.",
+            "overTitle": "VS Code"
+        },
+        {
+            "software": "visual-studio",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Visual Studio est un IDE orienté programmation en C. Il est notamment utilisé pour créer des applications graphiques.",
+            "overTitle": "Visual Studio"
+        },
+        {
+            "software": "git",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Git est un outil de gestion de versions et de travail collaboratif.",
+            "overTitle": "Git"
+        },
+        {
+            "software": "notion",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Notion est une application de prises de notes pouvant être utilisée pour améliorer sa productivité.",
+            "overTitle": "Notion"
+        },
+        {
+            "software": "windesign",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "WinDesign est un logiciel permettant la modélisation de bases de données sous forme de MCD.",
+            "overTitle": "WinDesign"
+        },
+        {
+            "software": "vmware",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "VMWare permet l'émulation des machines virtuelles à des fins de tests.",
+            "overTitle": "VMWare"
+        },
+        {
+            "software": "mindview",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Mindview est un logiciel de gestion de projet permettant de créer des diagrammes de Gantt.",
+            "overTitle": "Mindview"
+        },
+        {
+            "software": "netbeans",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Netbeans est un IDE conçu pour Java.",
+            "overTitle": "Netbeans"
+        },
+        {
+            "software": "sql-server",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "SQL Server est un SGBD permettant d'effectuer des traitements sur des bases de données.",
+            "overTitle": "SQL Server"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Jeu C++",
+            "date": 2021,
+            "purpose": "personnal",
+            "language": "cpp",
+            "thumb": "res/img/projects/aquarescue.png",
+            "containerId": "video-games",
+            "description": "AquaRescue est un jeu vidéo codé en C++. L'objectif est, dans un temps imparti, de ramasser le maximum de déchets dans l'océan. Il faut également faire attention aux ennemis tels que les requins et à sa barre d'oxygène. Ce jeu a été créé à l'ocation d'une GameJam pour la lutte contre le pollution des océans.",
+            "catchPhrase": "C++ que compliqué !",
+            "infos": {
+                "goal": "Participer à une GameJam",
+                "date": "nov. 2021",
+                "timeLimit": "3 semaines",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "C++"
+            },
+            "contribs": [
+                "Concevoir un jeu de A à Z",
+                "Publier un jeu",
+                "Apprendre le dessin vectoriel"
+            ],
+            "improves": [
+                "Mieux comprendre les bases du langage avant de se lancer dans un projet d'envergure"
+            ],
+            "tools": [
+                "Code::Blocks (IDE C++)",
+                "Inkscape (Editeur d'images vectorielles)",
+                "Audacity (Effets sonores)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/aquarescue.png"
+            ],
+            "keyWords": [
+                "c++",
+                "jeu",
+                "dessin",
+                "personnel"
+            ]
+        },
+        {
+            "title": "Jeu Android",
+            "date": 2022,
+            "purpose": "personnal",
+            "language": "godot",
+            "thumb": "res/img/projects/cloudChaos.png",
+            "containerId": "video-games",
+            "description": "Cloud Chaos est un jeu android codé à l'aide de Godot Engine. Dans ce dernier, votre but est de défendre un bébé nuage, attaqué par des monstres. Il est possible d'améliorer le protagoniste, permettant ainsi de faire des parties plus longues et obtenir un meilleur score.",
+            "catchPhrase": "15 jours - un jeu",
+            "infos": {
+                "goal": "Créer mon 1e jeu mobile",
+                "date": "Janv. 2022",
+                "timeLimit": "15 jours",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "GDScript"
+            },
+            "contribs": [
+                "Mener des recherches efficaces",
+                "Apprendre à utiliser Godot",
+                "Persévérance"
+            ],
+            "improves": [
+                "Apprendre à mieux m'organiser"
+            ],
+            "tools": [
+                "Godot Engine 3 (Moteur de jeu)",
+                "Inkscape (Editeur d'images vectorielles)",
+                "Audacity (Effets sonores)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/cloudChaos.png"
+            ]
+        },
+        {
+            "title": "Jeu de simulation",
+            "date": 2022,
+            "purpose": "personnal",
+            "language": "godot",
+            "thumb": "res/img/projects/seedKeeper.png",
+            "containerId": "video-games",
+            "description": "Seed Keeper est un jeu de sensibilisation à l'utilisation des produits chimiques dans l'agriculture. Je l'ai créé à l'occasion d'une campagne menée dans mon établissement scolaire. L'objectif est de cultiver des plantatations de différentes sortes, afin de dévelpper son commerce. On peut soit choisir de planter du bio, soit de l'hybride.",
+            "catchPhrase": "Défendre la bonne cause",
+            "infos": {
+                "goal": "S'investir pour une cause",
+                "date": "mars 2022",
+                "timeLimit": "3 mois",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "GDScript"
+            },
+            "contribs": [
+                "Aboutir un projet d'envergure",
+                "Rester motivé",
+                "Approfondir l'utilisation de Godot"
+            ],
+            "improves": [
+                "Apprendre à découper les tâches complexes en sous-tâches plus simples"
+            ],
+            "tools": [
+                "Godot Engine 3 (Moteur de jeu)",
+                "Inkscape (Editeur d'images vectorielles)",
+                "Audacity (Effets sonores)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/seedKeeper.png"
+            ]
+        },
+        {
+            "title": "Jeu de plateau",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "cs",
+            "thumb": "res/img/projects/hyperstellar.png",
+            "containerId": "video-games",
+            "description": "Hyperstellar est un jeu de plateau se jouant de 2 à 5 joueurs. J'ai eu l'occasion de designer les menus du jeu et coder ses fonctionnalités principales. J'ai ainsi appris à collaborer de façon poussée grâce à Git, ainsi qu'à créer une interface avec Visual Studio.",
+            "catchPhrase": "Stratégie lunaire",
+            "infos": {
+                "goal": "Collaborer afin de répondre à un besoin",
+                "date": "mai. 2023",
+                "timeLimit": "3 semaines",
+                "team": "4",
+                "context": "académique",
+                "languages": "C#"
+            },
+            "contribs": [
+                "Analyser un besoin",
+                "Travailler simultanément sur un projet",
+                "Designer une application Visual Studio",
+                "Etablir le diagramme de classe UML d'une application"
+            ],
+            "improves": [
+                "Consacrer plus de temps à l'analyse du besoin"
+            ],
+            "tools": [
+                "Visual Studio (IDE)",
+                "Git (Gestionnaire de versions)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/hyperstellar.png"
+            ]
+        },
+        {
+            "title": "Jeu en console",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "java",
+            "thumb": "res/img/projects/jpo.png",
+            "containerId": "video-games",
+            "description": "Le jeu de la grenouille est un mini-jeu en console codé en Java pour faire découvrir les bases de la programmation aux élèves lors de la journée portes ouvertes de l'IUT de Bordeaux.",
+            "catchPhrase": "Les bases",
+            "infos": {
+                "goal": "Faire découvrir la programmation",
+                "date": "mars. 2023",
+                "timeLimit": "3 semaines",
+                "team": "4",
+                "context": "académique",
+                "languages": "Java"
+            },
+            "contribs": [
+                "Proposer un jeu pédagogique",
+                "Créer une documentation claire",
+                "Utiliser des mécaniques simples"
+            ],
+            "improves": [
+                "Coordination lors du projet"
+            ],
+            "tools": [
+                "NetBeans (IDE Java)",
+                "Inkscape (Editeur d'images vectorielles)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/jpo.png"
+            ]
+        },
+        {
+            "title": "Centrale domotique",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "java",
+            "thumb": "res/img/projects/odomo.png",
+            "containerId": "algorithmic",
+            "description": "Odomo est une application de station météo fictive en version console. J'ai été invité à m'approprier, corriger et compléter un code préexistant. Cela m'a permis de comprendre l'importance des conventions d'écriture, afin que le code soit accessible par autrui (tests unitaires, Javadoc...). Cela a aussi sollicité ma logique et ma créativité.",
+            "catchPhrase": "Projet Ensoleillé",
+            "infos": {
+                "goal": "S'approprier un code préexistant",
+                "date": "nov. 2022",
+                "timeLimit": "3 semaines",
+                "team": "seul",
+                "context": "académique",
+                "languages": "Java"
+            },
+            "contribs": [
+                "S'approprier un code existant",
+                "Respect des conventions d'écriture du code",
+                "Utilisation concrète de Java"
+            ],
+            "improves": [
+                "Apprendre à rédiger un rapport de projet",
+                "Optimiser son code"
+            ],
+            "tools": [
+                "NetBeans (IDE Java)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/odomo.png"
+            ]
+        },
+        {
+            "title": "IA Jeu de plateau",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "java",
+            "thumb": "res/img/projects/biosphere7.png",
+            "containerId": "algorithmic",
+            "description": "Biosphere7 est un jeu de plateau stratégique se jouant à 2. Le but est d'obtenir le plus de points en plantant judicieusement des arbres. J'ai eu l'occasion de coder les règles ainsi qu'une IA pour ce jeu.",
+            "catchPhrase": "Un peu de stratégie!",
+            "infos": {
+                "goal": "Penser la stratégie d'une IA",
+                "date": "dec. 2022",
+                "timeLimit": "2 mois",
+                "team": "2",
+                "context": "académique",
+                "languages": "Java"
+            },
+            "contribs": [
+                "Travailler en équipe",
+                "Apprendre à utiliser git",
+                "Persévérer"
+            ],
+            "improves": [
+                "Organiser les tâches",
+                "Gérer son temps"
+            ],
+            "tools": [
+                "NetBeans (IDE Java)",
+                "Git (Gestionnaire de versions)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/biosphere7.png"
+            ]
+        },
+        {
+            "title": "Installation de poste",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "res/img/projects/butgames.png",
+            "containerId": "algorithmic",
+            "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
+            "catchPhrase": "un besoin, une configuration",
+            "infos": {
+                "goal": "S'approprier Linux",
+                "date": "dec. 2022",
+                "timeLimit": "1 mois",
+                "team": "3",
+                "context": "académique",
+                "languages": "Bash"
+            },
+            "contribs": [
+                "Comprendre l'écosystème Linux",
+                "Savoir chercher des renseignements"
+            ],
+            "improves": [
+                "Anticiper avant de se lancer dans la configuration"
+            ],
+            "tools": [
+                "VMware (logiciel de virtualisation)",
+                "Prompt Linux"
+            ],
+            "descriptionImages": [
+                "res/img/projects/butgames.png"
+            ]
+        },
+        {
+            "title": "Application Android",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "godot",
+            "thumb": "res/img/projects/1jour1mot.png",
+            "containerId": "algorithmic",
+            "description": "1Jour, 1Mot est application android développée sur Godot Engine. Elle propose d'apprendre un nouveau mot chaque jour, en révisant ceux appris les jours précédents.",
+            "catchPhrase": "Appli d'érudit !",
+            "infos": {
+                "goal": "Améliorer son vocabulaire",
+                "date": "août. 2023",
+                "timeLimit": "2 semaines",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "GDScript"
+            },
+            "contribs": [
+                "Développer une application android",
+                "Gérer une structure de données complète"
+            ],
+            "improves": [
+                "Améliorer le système de sauvegarde et de restauration des données"
+            ],
+            "tools": [
+                "Godot Engine 3 (Moteur de jeu)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/1jour1mot.png"
+            ]
+        },
+        {
+            "title": "Installation réseau",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "res/img/projects/nextcloud.png",
+            "containerId": "algorithmic",
+            "description": "L'objectif a été de configurer un réseau virtuel afin de pouvoir accéder à un serveur depuis un client, et pouvoir utiliser des logiciels de bureautique sur ce dernier.",
+            "catchPhrase": "Agrandir son réseau",
+            "infos": {
+                "goal": "Mettre en place un réseau",
+                "date": "avril. 2023",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "Bash"
+            },
+            "contribs": [
+                "Elaborer un plan d'adressage",
+                "Configuration des adresses IP sur Linux",
+                "Ecrire une documentation en Markdown"
+            ],
+            "improves": [
+                "Meilleure mise en page Markdown"
+            ],
+            "tools": [
+                "QEMU (logiciel de virtualisation système)",
+                "NEmu (logiciel de virtualisation réseau)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/nextcloud.png"
+            ]
+        },
+        {
+            "title": "Parcours Graphe",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "res/img/projects/graphe.png",
+            "containerId": "algorithmic",
+            "description": "Durant ce projet, j'ai eu l'occasion d'utiliser une bibliothèque Java permettant de modéliser des graphes. Il a fallu programmer des algorithmes de parcours en largeur et en profondeur afin de trouver le chemin le plus cours entre 2 noeuds.",
+            "catchPhrase": "Tracer son chemin",
+            "infos": {
+                "goal": "Représenter un graphe en algorithmie",
+                "date": "mai. 2023",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "Bash"
+            },
+            "contribs": [
+                "Découverte des algorithemes de parcours",
+                "Utilisation des interface Java (comparator,iterator)"
+            ],
+            "improves": [
+                "Tests unitaires imprécis"
+            ],
+            "tools": [
+                "NetBeans (IDE Java)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/graphe.png"
+            ]
+        },
+        {
+            "title": "Site instructif",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "html",
+            "thumb": "res/img/projects/2ivf.png",
+            "containerId": "web",
+            "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique. Cela a notamment impliqué de réfléchir au design du site au préalable via une maquette.",
+            "catchPhrase": "l'informatique pour l'information",
+            "infos": {
+                "goal": "Créer son premier site web",
+                "date": "dec. 2022",
+                "timeLimit": "1 mois",
+                "team": "2",
+                "context": "académique",
+                "languages": "HTML/CSS"
+            },
+            "contribs": [
+                "Apprendre les conventions de code web",
+                "Comprendre les bases du design web",
+                "Travailler en équipe"
+            ],
+            "improves": [
+                "Mieux travailler la maquette"
+            ],
+            "tools": [
+                "VS Code (IDE)",
+                "W3C (Standards web)",
+                "Balsamiq (Maquette)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/2ivf.png"
+            ]
+        },
+        {
+            "title": "Création d'une BD",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "sql",
+            "thumb": "res/img/projects/billetconcert.png",
+            "containerId": "web",
+            "description": "BILLETCONCERT.FR est une start-up fictive vendant des billets en ligne. Il a fallu créer et tester la base de données permettant de stocker l'agenda des festivals et concerts. Ensuite, une carte mentale a permis de mettre en avant le rôle de la qualité des données dans une BD.",
+            "catchPhrase": "concert à la base",
+            "infos": {
+                "goal": "Créer sa première BD",
+                "date": "janv. 2023",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "SQL"
+            },
+            "contribs": [
+                "Elaborer un MCD correspondant à des attentes",
+                "Construire une BD",
+                "Comprendre la qualité des données"
+            ],
+            "improves": [
+                "Elaborer un MCD complet, afin de ne pas avoir à revenir sur ses pas ensuite"
+            ],
+            "tools": [
+                "Microsoft SQL Server(SGBD)",
+                "XMind(MindMap design)",
+                "WinDesign (Conception MCD)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/billetconcert.png"
+            ]
+        },
+        {
+            "title": "Extension Chrome",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "javascript",
+            "thumb": "res/img/projects/devstats.png",
+            "containerId": "web",
+            "description": "DevStats est une extension chrome affichant des statistiques sur les sites pour programmeurs visités. Elle inclut des graphiques statistiques, une exportation au format .CSV et la personnalisation des sites suivis.",
+            "catchPhrase": "Extension pour développeurs",
+            "infos": {
+                "goal": "Créer une extension chrome",
+                "date": "mai. 2023",
+                "timeLimit": "3 semaines",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "HTML/CSS/JS"
+            },
+            "contribs": [
+                "Coder un extension Chrome manifest 3",
+                "Utiliser canvas pour exporter des images",
+                "Utiliser ChartJS pour tracer des graphiques"
+            ],
+            "improves": [
+                "Ajouter des fonctionnalités plus complètes"
+            ],
+            "tools": [
+                "VS Code (IDE)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/devstats.png"
+            ]
+        },
+        {
+            "title": "Partage de dessins",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "html",
+            "thumb": "res/img/projects/freepic.png",
+            "containerId": "web",
+            "description": "Freepic est un site web où je publie mes dessins vectoriels. N'importe qui peut les télécharger en .SVG ou .PNG. Ces dessins sont notamment issus des jeux vidéos que je code.",
+            "catchPhrase": "Dessins gratuits !",
+            "infos": {
+                "goal": "Publier mes dessins",
+                "date": "août. 2023",
+                "timeLimit": "1 semaine",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "HTML/CSS/JS"
+            },
+            "contribs": [
+                "Rassembler tous mes dessins à un même endroit",
+                "Convertir une image .SVG en .PNG en Javascript"
+            ],
+            "improves": [
+                "Ajouter un système de recherche des images par nom"
+            ],
+            "tools": [
+                "VS Code (IDE)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/freepic.png"
+            ]
+        },
+        {
+            "title": "Quiz historique",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "javascript",
+            "thumb": "res/img/projects/cadate.png",
+            "containerId": "web",
+            "description": "Ça date est un site web dans lequel on peut jouer à seul, ou à plusieurs. Le but est de deviner la date d'invention des objets proposés. Un classement final est ensuite établi.",
+            "catchPhrase": "Trouve la date",
+            "infos": {
+                "goal": "Enrichir ses connaissances historiques",
+                "date": "août. 2023",
+                "timeLimit": "1 semaine",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "HTML/CSS/JS"
+            },
+            "contribs": [
+                "Utilisation des Coockies pour stocker les préférences utilisateur",
+                "Système d'interaction poussé avec la page"
+            ],
+            "improves": [
+                "Développer un mode multijoueur en ligne"
+            ],
+            "tools": [
+                "VS Code (IDE)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/cadate.png"
+            ]
+        },
+        {
+            "title": "Rapport d'analyse",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "none",
+            "thumb": "res/img/projects/capgemini.png",
+            "containerId": "gestion-com",
+            "description": "J'ai dû présenter une entreprise du secteur numérique française : Capgemini. Ensuite, une analyse de son macro et micro-environnement a permis de déterminer les forces et faiblesses de l'entreprise sur le plan stratégique.",
+            "catchPhrase": "analyse stratégique",
+            "infos": {
+                "goal": "Analyser l'environnement d'une entreprise",
+                "date": "sept. 2022",
+                "timeLimit": "2 mois",
+                "team": "5",
+                "context": "académique",
+                "languages": "Aucun"
+            },
+            "contribs": [
+                "Comprendre les enjeux stratégiques d'une organisation",
+                "Trouver ses opportunités/menaces et forces/faiblesses",
+                "Rédiger un rapport construit"
+            ],
+            "improves": [
+                "Etre plus synthétique dans la rapport"
+            ],
+            "tools": [
+                "Google Docs (Traitement de texte)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/capgemini.png"
+            ]
+        },
+        {
+            "title": "Visualisation de données",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "cs",
+            "thumb": "res/img/projects/computr.png",
+            "containerId": "gestion-com",
+            "description": "Une mission nous a été confiée : réaliser une application permettant à une société fictive de promouvoir les dangers écologiques dus aux équipements électroniques. Ainsi, nous avons dû créer une base de données contenant des statistiques écologies, puis traiter et afficher ces données dans un logiciel.",
+            "catchPhrase": "écologie ordonnée",
+            "infos": {
+                "goal": "Mener à bien un projet ambitieux",
+                "date": "juin. 2023",
+                "timeLimit": "2 semaines",
+                "team": "5",
+                "context": "académique",
+                "languages": "C#, Python, SQL"
+            },
+            "contribs": [
+                "Rélisation d'un Plan de projet",
+                "S'organiser en équipe",
+                "Lier une application C# à du code Python effectuant des requêtes SQL"
+            ],
+            "improves": [
+                "Se concentrer d'abord sur les fonctionnalités plus que l'esthétisme"
+            ],
+            "tools": [
+                "Visual Studio (IDE)",
+                "Git (Gestionnaire de versions)",
+                "Mindview (Outil de gestion de projets)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/computr.png"
+            ]
+        }
+    ]
+}
