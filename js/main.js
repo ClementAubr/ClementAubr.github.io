@@ -30,7 +30,9 @@ const purposes = {
 };
 
 var cards;
+var allProfxp;
 var allSkills;
+var allFrameworks;
 var allSoftwares;
 var allSkillsContainers;
 const skillsContainer = document.getElementById('skills-container');
@@ -42,7 +44,9 @@ fetch('res/data/projects.json')
     .then(response => response.json())
     .then(data => {
         cards = data.projects;
+        allProfxp = data.profxp;
         allSkills = data.skills;
+        allFrameworks = data.frameworks;
         allSoftwares = data.softwares;
         let lastCard;
         let container;
@@ -57,6 +61,12 @@ fetch('res/data/projects.json')
             });*/
 
         });
+
+        allProfxp.forEach(profxp => {
+            container = document.querySelector(`#profxp .content .jobs`);
+            container.insertAdjacentHTML('beforeend', generateProfxpCode(profxp));
+        });
+        hideExcessJobs();
 
         for (i = 0; i < NB_SKILLS_TO_PREVIEW; i++) {
             skillsContainer.insertAdjacentHTML('beforeend', generateSkillCode(allSkills[i]));
@@ -89,7 +99,7 @@ function generateCardCode(card) {
     let cardCode = `
     <div class="card" onClick="handleClick(this)">
     <div class="head">
-        <img class="language-logo" src="res/img/languages/${card.language}.png" alt="logo du ${card.language}">
+        <img class="language-logo" src="res/img/languages/${card.language}.webp" alt="logo du ${card.language}">
         <i class="${purposes[card.purpose]}"></i>
         <p>${card.date}</p>
     </div>
@@ -100,10 +110,31 @@ function generateCardCode(card) {
     return cardCode;
 };
 
+//Génère le code pour l'expérience professionnelle passée en paramètre
+function generateProfxpCode(profxp) {
+    let code = `
+    <div class="one-job">
+        <img class="job-thumb card" src="res/img/profxp/${profxp.logo}.webp" alt="logo de ${profxp.company}">
+        <div class="job-infos card">
+            <div class="job-title">
+                <h3>${profxp.company} - ${profxp.title}</h3>
+                <p class="date">${profxp.date}</p>
+            </div>
+            <p class="job-description">${profxp.description}</p>
+            <div class="tags-container">
+                ${profxp.hardskills.map(tag => `<p class="tag hardskill">${tag}</p>`).join('')}
+                ${profxp.softskills.map(tag => `<p class="tag softskill">${tag}</p>`).join('')}
+            </div>
+        </div>
+    </div>
+    `
+    return code;
+};
+
 function generateSkillCode(skill) {
     let skillCode = `
     <div class="one-skill" data-tooltip-content="${skill.description}">
-        <img src="res/img/languages/${skill.language}.png" alt="logo de le compétence" draggable="false"
+        <img src="res/img/languages/${skill.language}.webp" alt="logo de le compétence" draggable="false"
                             title="${skill.overTitle}">
         <div class="progress-bar-empty">
             <div class="progress-bar-full" style="width: ${skill.progress}%;"></div>
@@ -343,7 +374,7 @@ function moveCursor(e) {
 }
 
 
-let links = document.querySelectorAll("a, li, input, button, .top-btn, .card, .unfold-button, .clickable");
+let links = document.querySelectorAll("a, li, input, button, .top-btn, .card, .unfold-button, .clickable, .classic-link");
 
 
 links.forEach((link) => {
@@ -396,6 +427,33 @@ allFoldButtons.forEach(element => {
 
 })
 
+/* afficher plus ou moins d'expériences pro */
+const showMoreJobs = document.getElementById('show-jobs');
+let allJobs;
+
+function toggleJobs(state, number) {
+    allJobs.forEach((job, i) => {
+        if (i > number - 1) {
+            job.style.display = state;
+        }
+    });
+}
+
+showMoreJobs.addEventListener('click', function () {
+    if (showMoreJobs.classList.contains('unfold')) {
+        toggleJobs('none', 2);
+    } else {
+        toggleJobs('flex', 2);
+    }
+    showMoreJobs.classList.toggle('unfold');
+});
+
+function hideExcessJobs() {
+    allJobs = document.querySelectorAll('.one-job');
+    toggleJobs('none', 2);
+}
+
+/* resize projets si fenetre redimensionnée en cours d'utilisation */
 window.addEventListener("resize", adaptFolded);
 
 function adaptFolded() {
@@ -564,6 +622,12 @@ function updateShownSkills() {
                 detailedKkillsContainer.insertAdjacentHTML('beforeend', generateDetailedSoftwareCode(skill));
             }, index * 0);
         });
+    } else if (currentSkillChosen.id === "frameworks-btn") {
+        allFrameworks.forEach((framework, index) => {
+            setTimeout(() => {
+                detailedKkillsContainer.insertAdjacentHTML('beforeend', generateDetailedFrameworkCode(framework));
+            }, index * 0);
+        });
     }
 }
 
@@ -593,7 +657,7 @@ function hideTooltip() {
 function generateDetailedSkillCode(skill) {
     let code = `
      <div class="skill-card tooltip-item" data-tooltip-content="${skill.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-         <img src="res/img/languages/${skill.language}.png" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
+         <img src="res/img/languages/${skill.language}.webp" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
          <p class="skill-tag">${skill.overTitle}</p>
      </div>
      `
@@ -603,10 +667,23 @@ function generateDetailedSkillCode(skill) {
     return code;
 }
 
+function generateDetailedFrameworkCode(framework) {
+    let code = `
+     <div class="skill-card tooltip-item" data-tooltip-content="${framework.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+         <img src="res/img/frameworks/${framework.framework}.webp" class="skill-card-img" alt="icone du langage ${framework.overTitle}">
+         <p class="skill-tag">${framework.overTitle}</p>
+     </div>
+     `
+    // < div class="progress-bar-empty" >
+    //     <div class="progress-bar-full" style="width: ${framework.progress}%;"></div>
+    //  </div >
+    return code;
+}
+
 function generateDetailedSoftwareCode(skill) {
     let code = `
      <div class="skill-card tooltip-item" data-tooltip-content="${skill.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-         <img src="res/img/softwares/${skill.software}.png" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
+         <img src="res/img/softwares/${skill.software}.webp" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
          <p class="skill-tag">${skill.overTitle}</p>
      </div>
      `

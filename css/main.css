@@ -401,6 +401,133 @@ span.fade-up {
   margin-bottom: 3%;
 }
 
+/* section expériences professionnelles */
+
+#profxp {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+}
+
+#profxp .content{
+  width: 70%;
+  margin: 4% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profxp .one-job{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+#profxp .card {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+
+#profxp .job-infos {
+  max-width: 70%;
+}
+
+#profxp .job-infos > *{
+  margin: 3% auto;
+}
+
+#profxp .job-infos >*:last-child{
+  margin-bottom: 1%;
+}
+
+#profxp .job-thumb{
+}
+
+#profxp p {
+  line-height: 1.5rem;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#profxp .job-title{
+  font-size: 1.3rem; /*25px*/
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profxp .job-title .date{
+  font-size: 1rem;
+}
+
+#profxp .tags-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#profxp .tag{
+  background-color: #DBEAFE;
+  color: #1E40AF;
+  padding: 0.6rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+#profxp .tag:not(:last-child){
+  margin-right: 1rem;
+}
+
+#profxp .tag.softskill {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+
+#profxp #show-jobs{
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#profxp #show-jobs .click-appeal{
+  /* animation: 3s ease-in-out showMoreJobs infinite; */
+  transition: transform 0.5s ease-in-out;
+}
+
+#profxp #show-jobs.unfold .click-appeal{
+  transform: rotateZ(180deg);
+}
+
+@keyframes showMoreJobs {
+  0% {
+    transform: translate(0%, -20%);
+  }
+
+  30% {
+    transform: translate(0%, 5%);
+  }
+
+  80%{
+    transform: translate(0%, 5%);
+  }
+
+  100% {
+    transform: translate(0%, -20%);
+  }
+}
+
+.classic-link {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.classic-link:hover{
+  text-decoration: underline;
+}
+ 
+
 /*compétences*/
 #skills {
   display: flex;
@@ -430,7 +557,7 @@ span.fade-up {
 }
 
 #skills .sticked-button {
-  width: 10rem;
+  width: 12rem;
   font-size: 1.2rem;
 }
 
@@ -472,14 +599,16 @@ span.fade-up {
   transition: all 0.1s ease-in-out;
 }
 
+.sticked-buttons-container .sticked-button {
+  margin: 0 -2px;
+}
+
 .sticked-buttons-container .sticked-button:first-of-type {
   border-radius: 2rem 0 0 2rem;
-  margin-right: -2px;
 }
 
 .sticked-buttons-container .sticked-button:last-of-type {
   border-radius: 0 2rem 2rem 0;
-  margin-left: -2px;
 }
 
 #detailed-skills-container {
@@ -1459,6 +1588,32 @@ footer i[class*="github"]:hover {
     display: none;
   }
 
+  /* profxp */
+  #profxp .content {
+    width: 90%;
+  }
+
+  #profxp .one-job {
+    flex-direction: column;
+  }
+
+  #profxp .job-thumb {
+    margin-bottom: 1rem;
+  }
+
+  #profxp .job-infos {
+    margin-bottom: 3rem;
+  max-width: 85%;
+  }
+
+  #profxp .job-title{
+    flex-direction: column;
+  }
+
+  #profxp .job-title .date {
+    margin: 1rem 0 0 1rem;
+  }
+
   /*projects*/
   #projects .card {
     width: 90%;
@@ -1468,6 +1623,12 @@ footer i[class*="github"]:hover {
 
   #skills .sticked-buttons-container {
     width: 100%;
+  }
+
+  #skills .sticked-button {
+    display: block;
+    border-radius: 2rem;
+    margin : .8rem auto;
   }
 
   #skills .sticked-button {

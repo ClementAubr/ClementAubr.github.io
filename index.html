@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="desciption" content="page web portfolio de clément, étudiant en informatique à bordeaux">
+    <meta name="description" content="Page web portfolio de clément, étudiant en informatique à bordeaux">
     <link rel="manifest" href="res/data/manifest/manifest.webmanifest">
 
     <!-- charger la police d'écriture -->
@@ -26,7 +26,7 @@
     <!-- charger les icônes (font awesome)-->
     <script src="https://kit.fontawesome.com/bf31f3517c.js" crossorigin="anonymous"></script>
 
-    <link rel="shortcut icon" href="res/img/autoportrait.png"> <!-- charger la miniature -->
+    <link rel="shortcut icon" href="res/img/autoportrait.webp"> <!-- charger la miniature -->
 
     <title>Portfolio - Clément AUBIER - Etudiant informatique</title>
 </head>
@@ -87,7 +87,7 @@
                         </section>
                         <!-- section -->
                         <div class="preview">
-                            <img class="thumb" src="res/img/projects/aquarescue.png" alt="image extraite du projet">
+                            <img class="thumb" src="res/img/projects/aquarescue.webp" alt="image extraite du projet">
                         </div>
                     </div>
 
@@ -137,6 +137,7 @@
         <ul id="main-nav">
             <li onclick="window.location.href = '#'"><i class="fa-solid fa-house"></i> Principal</li>
             <li onclick="window.location.href = '#aboutme'"><i class="fa-solid fa-user"></i> Sur moi</li>
+            <li onclick="window.location.href = '#profxp'"><i class="fas fa-briefcase"></i> Expériences</li>
             <li onclick="window.location.href = '#projects'"><i class="fa-solid fa-code"></i> Projets</li>
             <li onclick="window.location.href = '#skills'"><i class="fa-solid fa-puzzle-piece"></i> Compétences</li>
             <!-- <li><i class="fa-sharp fa-solid fa-briefcase"></i> Expérience</li> -->
@@ -152,7 +153,7 @@
             <div class="left">
                 <h2><span>Clément <br> Aubier</span></h2>
                 <p class="fade-up-container">
-                    <span class="fade-up">Salut, je suis en seconde année d'études informatique !</span>
+                    <span class="fade-up">Salut, je suis en troisième année d'études informatique !</span>
                 </p>
                 <button class="classic-button" onclick="window.open('res/docs/CV_final.pdf', '_blank')"><i
                         class="fa-solid fa-download"></i> Télécharger mon CV</button>
@@ -178,11 +179,11 @@
             <div class="content">
                 <div class="left">
                     <div class="color-rectangle"></div>
-                    <img src="res/img/portrait.png" alt="photo de moi">
+                    <img src="res/img/portrait.webp" alt="photo de moi">
                 </div>
                 <div class="right">
                     <p class="fade-up-container"><span class="fade-up first-fade">Je m'appelle Clément Aubier, j'ai
-                            18
+                            20
                             ans,
                             et j'étudie
                             actuellement à l'université de Bordeaux en IUT informatique.
@@ -209,6 +210,17 @@
                     <button onclick="window.location.href = '#footer'" class="classic-button"><i
                             class="fa-solid fa-address-card"></i> Me contacter</button>
                 </div>
+            </div>
+        </section>
+
+        <section id="profxp" class="slide-in">
+            <div class="bar"></div>
+            <h2 class="section-title">Expériences professionnelles</h2>
+            <div class="content">
+                <div class="jobs">
+
+                </div>
+                <p id="show-jobs" class="classic-link"><i class="fa-solid fa-caret-down click-appeal"></i> Afficher tout</p>
             </div>
         </section>
 
@@ -285,6 +297,7 @@
                 <div class="sticked-buttons-container">
                     <button id="languages-btn" class="sticked-button selected"><i class="fa-solid fa-laptop-code"></i>
                         Langages</button>
+                    <button id="frameworks-btn" class="sticked-button">Frameworks <i class="fas fa-cubes"></i></button>
                     <button id="sofwares-btn" class="sticked-button">Logiciels <i class="fa-solid fa-gear"></i></button>
                 </div>
             </div>
@@ -344,10 +357,10 @@
                         clement.aubier.1@etu.u-bordeaux.fr</a></p>
                 <p><i class="fa-solid fa-phone"></i> 06.33.54.50.01</p>
                 <div class="row">
-                    <a href="https://hellolife2750.itch.io/"><i class="fa-brands fa-itch-io"></i></a>
-                    <a href="https://www.linkedin.com/in/cl%C3%A9ment-aubier-83b681279/"> <i
+                    <a href="https://hellolife2750.itch.io/" aria-label="Lien profil Itchio"><i class="fa-brands fa-itch-io"></i></a>
+                    <a href="https://www.linkedin.com/in/cl%C3%A9ment-aubier-83b681279/" aria-label="Lien profil Linkedin"> <i
                             class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/ClementAubr"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/ClementAubr" aria-label="Lien profil Github"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>
